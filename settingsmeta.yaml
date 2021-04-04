@@ -7,7 +7,7 @@ skillMetadata:
           label: MagicMirror URL
           value: "http://localhost:8080"
         - name: key
-          type: text
+          type: password
           label: MagicMirror API key
           value: ""
         - name: verify
