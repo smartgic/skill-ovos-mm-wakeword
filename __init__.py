@@ -25,6 +25,7 @@ class MagicMirrorWakeWord(MycroftSkill):
         else:
             self.configured = True
             self.headers['X-Api-Key'] = self.key
+            self.headers['Content-Type'] = 'application/json'
             self.log.info('MagicMirror URL: {}'.format(self.url))
 
     # See https://bit.ly/37pwxIC (Mycroft documentation about skill lifecycle)
