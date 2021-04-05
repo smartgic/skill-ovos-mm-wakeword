@@ -35,8 +35,11 @@ This skill utilizes the `settings.json` file which allows you to configure this 
 
 Fill this out with your appropriate information and hit save.
 
+## MagicMirror configuration
 
-In order to reach the `/mycroft` route on your MagicMirror, you need to allow the remote connection for a specific IP address or for a network range. Please have a look here: https://github.com/smartgic/MMM-mycroft-wakeword
+In order to reach the `/mycroft` route on your MagicMirror, you need to allow the remote connection for a specific IP address or for a network range.
+
+Please have a look here: https://github.com/smartgic/MMM-mycroft-wakeword
 
 ## Credits
 
