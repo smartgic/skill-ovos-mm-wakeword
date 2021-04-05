@@ -35,6 +35,14 @@ This skill utilizes the `settings.json` file which allows you to configure this 
 
 Fill this out with your appropriate information and hit save.
 
+In order to reach the `/mycroft` route on your MagicMirror, you need to allow the remote connection for a specific IP address or for a netwoek range in your MagicMirror by changing the `config.js`.
+
+```js
+ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1", "::ffff:192.168.1.1/24"]
+```
+
+The example above will allows all the connection from `192.168.1.0/24` network to perform remote connection.
+
 ## Credits
 
 Smart'Gic
