@@ -1,8 +1,8 @@
 
-[![Build Status](https://travis-ci.com/smartgic/mycroft-magicmirror-wakeword-skill.svg?branch=20.08)](https://travis-ci.com/github/smartgic/mycroft-magicmirror-wakeword-skill) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-pink.svg?style=flat)](https://github.com/smartgic/mycroft-magicmirror-wakeword-skill/pulls) [![Skill: MIT](https://img.shields.io/badge/mycroft.ai-skill-blue)](https://mycroft.ai) [![Discord](https://img.shields.io/discord/809074036733902888)](https://discord.gg/Vu7Wmd9j) 
+[![Build Status](https://travis-ci.com/smartgic/mycroft-magicmirror-wakeword-skill.svg?branch=20.8.1)](https://travis-ci.com/github/smartgic/mycroft-magicmirror-wakeword-skill) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-pink.svg?style=flat)](https://github.com/smartgic/mycroft-magicmirror-wakeword-skill/pulls) [![Skill: MIT](https://img.shields.io/badge/mycroft.ai-skill-blue)](https://mycroft.ai) [![Discord](https://img.shields.io/discord/809074036733902888)](https://discord.gg/Vu7Wmd9j) 
 
 
-# <img src="docs/magicmirror.png" card_color="#0000" width="150" height="30" style="vertical-align:bottom"/> MagicMirror² Wake Word
+# <img src="docs/magicmirror.png" card_color="#0000" width="150" height="30" style="vertical-align:bottom"/> MagicMirror² wake word detection
 
 Image and message indicators Mycroft AI on MagicMirrot²
 
@@ -11,6 +11,8 @@ Image and message indicators Mycroft AI on MagicMirrot²
 [MagicMirror²](https://magicmirror.builders/) is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror² allows you to convert your hallway or bathroom mirror into your personal assistant.
 
 This skill interacts with MagicMirror² to let you know if Mycroft is listening. When a wake word is detected the an image and message are display on the screen and when the recording is done image and the message disappear.
+
+<img src='docs/screenshot.png.png' width='450'/>
 
 ## Examples
 
