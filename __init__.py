@@ -8,14 +8,14 @@ __author__ = 'smartgic'
 
 
 class MagicMirrorWakeWord(MycroftSkill):
-    """This is the place where all the magic happens for the Sonos
-    controller skill.
+    """This is the place where all the magic happens for the MagicMirror
+    wake word skill.
     """
 
     def __init__(self):
         MycroftSkill.__init__(self)
 
-        # Initialize variables with empty or None values
+        # Initialize variables with empty or None values.
         self.configured = False
         self.headers = {}
 

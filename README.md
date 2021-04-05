@@ -4,7 +4,7 @@
 
 # <img src="docs/magicmirror.png" card_color="#0000" width="150" height="30" style="vertical-align:bottom"/> MagicMirror² wake word detection
 
-Image and message indicators Mycroft AI on MagicMirrot²
+Image and message display on MagicMirrot² when Mycrot AI is listening.
 
 ## About
 
