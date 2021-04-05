@@ -12,7 +12,7 @@ Image and message indicators Mycroft AI on MagicMirrot²
 
 This skill interacts with MagicMirror² to let you know if Mycroft is listening. When a wake word is detected the an image and message are display on the screen and when the recording is done image and the message disappear.
 
-<img src='docs/screenshot.png.png' width='450'/>
+<img src='docs/screenshot.png' width='450'/>
 
 ## Examples
 
