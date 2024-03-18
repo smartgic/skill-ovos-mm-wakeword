@@ -1,13 +1,19 @@
+# TODO: Remove unused OVOS imports
+from ovos_workshop.decorators import intent_handler
+from ovos_workshop.skills import OVOSSkill
+from ovos_utils.intents import IntentBuilder
+from ovos_bus_client.message import Message
 """MagicMirror wake word entrypoint skill
 """
-from mycroft import MycroftSkill
+# TODO: Remove all Mycroft imports
+# from mycroft import MycroftSkill
 import json
 import requests
 
 __author__ = 'smartgic'
 
 
-class MagicMirrorWakeWord(MycroftSkill):
+class MagicMirrorWakeWord(OVOSSkill):
     """This is the place where all the magic happens for the MagicMirror
     wake word skill.
     """
@@ -100,6 +106,7 @@ class MagicMirrorWakeWord(MycroftSkill):
             return err
 
 
+# TODO: Remove create_skill() function
 def create_skill():
     """Main function to register the skill
     """
