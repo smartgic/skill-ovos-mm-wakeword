@@ -1,0 +1,35 @@
+{
+  "skillMetadata": {
+    "sections": [
+      {
+        "name": "Configuration",
+        "fields": [
+          {
+            "name": "url",
+            "type": "text",
+            "label": "MagicMirror URL",
+            "value": "http://localhost:8080"
+          },
+          {
+            "name": "key",
+            "type": "password",
+            "label": "MagicMirror API key",
+            "value": ""
+          },
+          {
+            "name": "timeout",
+            "type": "number",
+            "label": "HTTP request timeout in second",
+            "value": 10
+          },
+          {
+            "name": "verify",
+            "type": "checkbox",
+            "label": "Verify SSL certificate",
+            "value": false
+          }
+        ]
+      }
+    ]
+  }
+}
