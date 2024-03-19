@@ -10,7 +10,7 @@ Display an image and a message on MagicMirror² when Open Voice OS is listening.
 
 This skill interacts with MagicMirror² to let you know if OVOS is listening. When a wake word is detected an image and message are display on the screen and when the recording is done image and the message disappear.
 
-<img src='docs/screenshot.png' width='750'/>
+<img src='docs/screenshot.png' width='800'/>
 
 ## Example
 
