@@ -7,7 +7,7 @@ URL = "https://github.com/smartgic/skill-ovos-mm-wakeword"
 SKILL_CLAZZ = "MagicMirrorWakeWord"
 PYPI_NAME = "skill-ovos-mm-wakeword"
 
-SKILL_AUTHOR, SKILL_NAME = URL.split(".com/")[-1].split("/")
+SKILL_AUTHOR, SKILL_NAME = URL.split(".com/", maxsplit=1)[-1].split("/")
 SKILL_PKG = SKILL_NAME.lower().replace("-", "_")
 PLUGIN_ENTRY_POINT = (
     f"{SKILL_NAME.lower()}.{SKILL_AUTHOR.lower()}={SKILL_PKG}:{SKILL_CLAZZ}"
@@ -22,8 +22,8 @@ def get_version():
     version = None
     version_file = path.join(BASE_PATH, "version.py")
     major, minor, build, alpha = (None, None, None, None)
-    with open(version_file) as f:
-        for line in f:
+    with open(version_file, encoding="utf-8") as file:
+        for line in file:
             if "VERSION_MAJOR" in line:
                 major = line.split("=")[1].strip()
             elif "VERSION_MINOR" in line:
@@ -64,8 +64,8 @@ def find_resource_files():
     return package_data
 
 
-with open("README.md", "r") as f:
-    long_description = f.read()
+with open("README.md", "r", encoding="utf-8") as file:
+    long_description = file.read()
 
 setup(
     name=PYPI_NAME,
