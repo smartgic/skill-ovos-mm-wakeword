@@ -10,9 +10,9 @@ Display an image and a message on MagicMirror² when Open Voice OS is listening.
 
 This skill interacts with MagicMirror² to let you know if OVOS is listening. When a wake word is detected an image and message are display on the screen and when the recording is done image and the message disappear.
 
-<img src='docs/screenshot.png' width='450'/>
+<img src='docs/screenshot.png' width='650'/>
 
-## Examples
+## Example
 
 There is no example because there is no voice interaction with Open Voice OS.
 
@@ -33,11 +33,11 @@ This skill utilizes the `~/.config/mycroft/skills/skill-ovos-mm-wakeword.smartgi
 }
 ```
 
-Fill this out with your appropriate information and hit save.
+Fill this out with your appropriate information and save the file.
 
 ## MagicMirror configuration
 
-In order to reach the `/ovos` route on your MagicMirror, you need to allow the remote connection for a specific IP address or for a network range.
+In order to reach the `/ovos` route on your MagicMirror, you need to allow remote connections for a specific IP address or for a network range.
 
 Please have a look here: https://github.com/smartgic/MMM-ovos-wakeword
 
