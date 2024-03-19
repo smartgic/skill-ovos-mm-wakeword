@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-from setuptools import setup
 from os import walk, path
+from setuptools import setup
 
 BASEDIR = path.abspath(path.dirname(__file__))
 URL = "https://github.com/smartgic/skill-ovos-mm-wakeword"
@@ -22,8 +22,8 @@ def get_version():
     version = None
     version_file = path.join(BASE_PATH, "version.py")
     major, minor, build, alpha = (None, None, None, None)
-    with open(version_file, encoding="utf-8") as file:
-        for line in file:
+    with open(version_file, encoding="utf-8") as file_version:
+        for line in file_version:
             if "VERSION_MAJOR" in line:
                 major = line.split("=")[1].strip()
             elif "VERSION_MINOR" in line:
@@ -64,8 +64,8 @@ def find_resource_files():
     return package_data
 
 
-with open("README.md", "r", encoding="utf-8") as file:
-    long_description = file.read()
+with open("README.md", "r", encoding="utf-8") as file_readme:
+    long_description = file_readme.read()
 
 setup(
     name=PYPI_NAME,
