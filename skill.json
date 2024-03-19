@@ -3,7 +3,7 @@
     "url": "https://github.com/smartgic/skill-ovos-mm-wakeword",
     "summary": "Display an image and a message on MagicMirror\u00b2 when Open Voice OS is listening.",
     "short_description": "Display an image and a message on MagicMirror\u00b2 when Open Voice OS is listening.",
-    "description": "[MagicMirror\u00b2](https://magicmirror.builders/) is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror\u00b2 allows you to convert your hallway or bathroom mirror into your personal assistant. This skill interacts with MagicMirror\u00b2 to let you know if OVOS is listening. When a wake word is detected an image and message are display on the screen and when the recording is done image and the message disappear. <img src='docs/screenshot.png' width='450'/>",
+    "description": "[MagicMirror\u00b2](https://magicmirror.builders/) is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror\u00b2 allows you to convert your hallway or bathroom mirror into your personal assistant. This skill interacts with MagicMirror\u00b2 to let you know if OVOS is listening. When a wake word is detected an image and message are display on the screen and when the recording is done image and the message disappear. <img src='docs/screenshot.png' width='750'/>",
     "examples": [],
     "desktopFile": false,
     "warning": "",
@@ -45,7 +45,8 @@
     "authorname": "smartgic",
     "foldername": null,
     "header": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-pink.svg?style=flat)](https://github.com/smartgic/skill-ovos-mm-wakeword/pulls) [![Skill: MIT](https://img.shields.io/badge/ovos-skill-blue)](https://openvoiceos.org) [![Discord](https://img.shields.io/discord/809074036733902888)](https://discord.gg/Vu7Wmd9j)",
+    "example": "There is no example because there is no voice interaction with Open Voice OS.",
     "installation": "```shell $ pip install git+https://github.com/smartgic/skill-ovos-mm-wakeword ```",
-    "configuration": "This skill utilizes the `~/.config/mycroft/skills/skill-ovos-mm-wakeword.smartgic/settings.json` file which allows you to configure this skill. ```json {   \"url\": \"http://mm.home.lan\",   \"key\": \"en323q9WBNMK3Q04WIPNEAsdfhesammhp44\" } ``` Fill this out with your appropriate information and hit save.",
-    "magicmirror configuration": "In order to reach the `/ovos` route on your MagicMirror, you need to allow the remote connection for a specific IP address or for a network range. Please have a look here: https://github.com/smartgic/MMM-ovos-wakeword"
+    "configuration": "This skill utilizes the `~/.config/mycroft/skills/skill-ovos-mm-wakeword.smartgic/settings.json` file which allows you to configure this skill. ```json {   \"url\": \"http://mm.home.lan\",   \"key\": \"en323q9WBNMK3Q04WIPNEAsdfhesammhp44\" } ``` Fill this out with your appropriate information and save the file.",
+    "magicmirror configuration": "In order to reach the `/ovos` route on your MagicMirror, you need to allow remote connections for a specific IP address or for a network range. Please have a look here: https://github.com/smartgic/MMM-ovos-wakeword"
 }
