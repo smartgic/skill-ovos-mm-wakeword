@@ -13,6 +13,7 @@ class MagicMirrorWakeWord(OVOSSkill):
 
         self.configured = False
         self.headers = {}
+        self.setup()
 
     def setup(self):
         if not self.settings.get("url") or not self.settings.get("key"):
@@ -25,7 +26,6 @@ class MagicMirrorWakeWord(OVOSSkill):
             LOG.info("MagicMirror address: %s", self.settings.get("url"))
 
     def initialize(self):
-        self.setup()
         self.add_event("recognizer_loop:record_begin", self.handle_listener_started)
         self.add_event("recognizer_loop:record_end", self.handle_listener_ended)
 
