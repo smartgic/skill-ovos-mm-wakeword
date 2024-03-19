@@ -12,7 +12,9 @@ SKILL_PKG = SKILL_NAME.lower().replace("-", "_")
 PLUGIN_ENTRY_POINT = (
     f"{SKILL_NAME.lower()}.{SKILL_AUTHOR.lower()}={SKILL_PKG}:{SKILL_CLAZZ}"
 )
-BASE_PATH = BASE_PATH = path.abspath(path.join(path.dirname(__file__), ""))
+BASE_PATH = BASE_PATH = path.abspath(
+    path.join(path.dirname(__file__), "skill_mm_wakeword")
+)
 
 
 def get_version():
