@@ -1,0 +1,2 @@
+ovos-workshop
+requests
